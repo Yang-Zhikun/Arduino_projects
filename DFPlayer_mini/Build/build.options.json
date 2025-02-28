@@ -1,0 +1,9 @@
+{
+  "additionalFiles": "..\\..\\..,..\\..\\..,..\\..\\..,..\\..",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "build.warn_data_percentage=75",
+  "fqbn": "arduino:avr:uno",
+  "hardwareFolders": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages",
+  "otherLibrariesFolders": "D:\\77656\\文档\\Arduino\\libraries",
+  "sketchLocation": "D:\\DevFiles\\ArduinoFiles\\projects\\DFPlayer_mini"
+}

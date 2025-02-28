@@ -1,0 +1,22 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard"
+  },
+  {
+    "Sourcefile": "D:\\DevFiles\\ArduinoFiles\\projects\\IR_data\\Build\\sketch\\IR_data.ino.cpp",
+    "Include": "IRremote.h",
+    "Includepath": "D:\\77656\\文档\\Arduino\\libraries\\IRremote\\src"
+  },
+  {
+    "Sourcefile": "D:\\DevFiles\\ArduinoFiles\\projects\\IR_data\\Build\\sketch\\IR_data.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
