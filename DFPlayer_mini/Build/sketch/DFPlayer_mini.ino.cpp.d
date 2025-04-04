@@ -1,5 +1,5 @@
-D:\DevFiles\ArduinoFiles\projects\DFPlayer_mini\Build\sketch\DFPlayer_mini.ino.cpp.o: \
- D:\DevFiles\ArduinoFiles\projects\DFPlayer_mini\Build\sketch\DFPlayer_mini.ino.cpp \
+D:\DevFiles\ArduinoFiles\Arduino_projects\DFPlayer_mini\Build\sketch\DFPlayer_mini.ino.cpp.o: \
+ D:\DevFiles\ArduinoFiles\Arduino_projects\DFPlayer_mini\Build\sketch\DFPlayer_mini.ino.cpp \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/binary.h \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/WCharacter.h \
@@ -43,4 +43,4 @@ D:\DevFiles\ArduinoFiles\projects\DFPlayer_mini\Build\sketch\DFPlayer_mini.ino.c
  D:\77656\ÎÄµµ\Arduino\libraries\IRremote\src/ir_Others.hpp \
  D:\77656\ÎÄµµ\Arduino\libraries\IRremote\src/ir_Pronto.hpp \
  D:\77656\ÎÄµµ\Arduino\libraries\IRremote\src/ir_DistanceWidthProtocol.hpp \
- D:\DevFiles\ArduinoFiles\projects\DFPlayer_mini\Build\sketch\IR_commands.h
+ D:\DevFiles\ArduinoFiles\Arduino_projects\DFPlayer_mini\Build\sketch\IR_commands.h

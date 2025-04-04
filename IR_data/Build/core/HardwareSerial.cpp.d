@@ -1,4 +1,4 @@
-D:\DevFiles\ArduinoFiles\projects\IR_data\Build\core\HardwareSerial.cpp.o: \
+D:\DevFiles\ArduinoFiles\Arduino_projects\IR_data\Build\core\HardwareSerial.cpp.o: \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino\HardwareSerial.cpp \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino\Arduino.h \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino\binary.h \

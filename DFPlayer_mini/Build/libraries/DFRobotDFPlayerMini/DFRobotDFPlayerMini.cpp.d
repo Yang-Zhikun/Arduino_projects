@@ -1,4 +1,4 @@
-D:\DevFiles\ArduinoFiles\projects\DFPlayer_mini\Build\libraries\DFRobotDFPlayerMini\DFRobotDFPlayerMini.cpp.o: \
+D:\DevFiles\ArduinoFiles\Arduino_projects\DFPlayer_mini\Build\libraries\DFRobotDFPlayerMini\DFRobotDFPlayerMini.cpp.o: \
  D:\77656\ÎÄµµ\Arduino\libraries\DFRobotDFPlayerMini\DFRobotDFPlayerMini.cpp \
  D:\77656\ÎÄµµ\Arduino\libraries\DFRobotDFPlayerMini\DFRobotDFPlayerMini.h \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \

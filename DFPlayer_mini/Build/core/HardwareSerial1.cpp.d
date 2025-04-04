@@ -1,4 +1,4 @@
-D:\DevFiles\ArduinoFiles\projects\DFPlayer_mini\Build\core\HardwareSerial1.cpp.o: \
+D:\DevFiles\ArduinoFiles\Arduino_projects\DFPlayer_mini\Build\core\HardwareSerial1.cpp.o: \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino\HardwareSerial1.cpp \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino\Arduino.h \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino\binary.h \

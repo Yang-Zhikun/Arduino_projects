@@ -10,22 +10,22 @@
     "Includepath": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard"
   },
   {
-    "Sourcefile": "D:\\DevFiles\\ArduinoFiles\\projects\\DFPlayer_mini\\Build\\sketch\\DFPlayer_mini.ino.cpp",
+    "Sourcefile": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\DFPlayer_mini\\Build\\sketch\\DFPlayer_mini.ino.cpp",
     "Include": "SoftwareSerial.h",
     "Includepath": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src"
   },
   {
-    "Sourcefile": "D:\\DevFiles\\ArduinoFiles\\projects\\DFPlayer_mini\\Build\\sketch\\DFPlayer_mini.ino.cpp",
+    "Sourcefile": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\DFPlayer_mini\\Build\\sketch\\DFPlayer_mini.ino.cpp",
     "Include": "DFRobotDFPlayerMini.h",
     "Includepath": "D:\\77656\\文档\\Arduino\\libraries\\DFRobotDFPlayerMini"
   },
   {
-    "Sourcefile": "D:\\DevFiles\\ArduinoFiles\\projects\\DFPlayer_mini\\Build\\sketch\\DFPlayer_mini.ino.cpp",
+    "Sourcefile": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\DFPlayer_mini\\Build\\sketch\\DFPlayer_mini.ino.cpp",
     "Include": "IRremote.h",
     "Includepath": "D:\\77656\\文档\\Arduino\\libraries\\IRremote\\src"
   },
   {
-    "Sourcefile": "D:\\DevFiles\\ArduinoFiles\\projects\\DFPlayer_mini\\Build\\sketch\\DFPlayer_mini.ino.cpp",
+    "Sourcefile": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\DFPlayer_mini\\Build\\sketch\\DFPlayer_mini.ino.cpp",
     "Include": "",
     "Includepath": null
   },

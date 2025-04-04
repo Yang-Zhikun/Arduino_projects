@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#line 1 "D:\\DevFiles\\ArduinoFiles\\projects\\IR_data\\IR_data.ino"
+#line 1 "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\IR_data\\IR_data.ino"
 /**
  * 功能：红外接收模块，读取红外信号，运行python脚本，将读取到的红外信号发送保存到IR_data.txt中
  * 硬件：红外接收模块，红外遥控器
@@ -15,11 +15,11 @@
 
 IRrecv IR_receiver; // 创建红外接收器对象
 
-#line 16 "D:\\DevFiles\\ArduinoFiles\\projects\\IR_data\\IR_data.ino"
+#line 16 "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\IR_data\\IR_data.ino"
 void setup();
-#line 23 "D:\\DevFiles\\ArduinoFiles\\projects\\IR_data\\IR_data.ino"
+#line 23 "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\IR_data\\IR_data.ino"
 void loop();
-#line 16 "D:\\DevFiles\\ArduinoFiles\\projects\\IR_data\\IR_data.ino"
+#line 16 "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\IR_data\\IR_data.ino"
 void setup() {
   Serial.begin(9600); // 初始化串口通信
   IR_receiver.begin(IR_RECEIVER_PIN); // 初始化红外接收器
