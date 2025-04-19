@@ -11,6 +11,9 @@ D:\DevFiles\ArduinoFiles\Arduino_projects\U8G2_test\Build\sketch\U8G2_test.ino.c
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/USBAPI.h \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\variants\standard/pins_arduino.h \
- D:\77656\文档\Arduino\libraries\U8glib\src/U8glib.h \
+ D:\77656\文档\Arduino\libraries\U8g2\src/U8g2lib.h \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/Print.h \
- D:\77656\文档\Arduino\libraries\U8glib\src/clib/u8g.h
+ D:\77656\文档\Arduino\libraries\U8g2\src/U8x8lib.h \
+ D:\77656\文档\Arduino\libraries\U8g2\src/clib/u8x8.h \
+ D:\77656\文档\Arduino\libraries\U8g2\src/clib/u8g2.h \
+ D:\77656\文档\Arduino\libraries\U8g2\src/clib/u8x8.h

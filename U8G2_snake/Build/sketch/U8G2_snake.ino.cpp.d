@@ -11,6 +11,40 @@ D:\DevFiles\ArduinoFiles\Arduino_projects\U8G2_snake\Build\sketch\U8G2_snake.ino
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/USBAPI.h \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\variants\standard/pins_arduino.h \
- D:\77656\文档\Arduino\libraries\U8glib\src/U8glib.h \
+ D:\77656\文档\Arduino\libraries\U8g2\src/U8g2lib.h \
  D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/Print.h \
- D:\77656\文档\Arduino\libraries\U8glib\src/clib/u8g.h
+ D:\77656\文档\Arduino\libraries\U8g2\src/U8x8lib.h \
+ D:\77656\文档\Arduino\libraries\U8g2\src/clib/u8x8.h \
+ D:\77656\文档\Arduino\libraries\U8g2\src/clib/u8g2.h \
+ D:\77656\文档\Arduino\libraries\U8g2\src/clib/u8x8.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\libraries\EEPROM\src/EEPROM.h \
+ D:\DevFiles\ArduinoFiles\Arduino_projects\U8G2_snake\Build\sketch\IR_commands.h \
+ D:\77656\文档\Arduino\libraries\IRremote\src/IRremote.h \
+ D:\77656\文档\Arduino\libraries\IRremote\src/IRremote.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/IRVersion.h \
+ D:\77656\文档\Arduino\libraries\IRremote\src/IRremoteInt.h \
+ D:\77656\文档\Arduino\libraries\IRremote\src/IRProtocol.h \
+ D:\77656\文档\Arduino\libraries\IRremote\src/digitalWriteFast.h \
+ D:\77656\文档\Arduino\libraries\IRremote\src/private/IRTimer.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/IRFeedbackLED.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/LongUnion.h \
+ D:\77656\文档\Arduino\libraries\IRremote\src/IRProtocol.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/IRReceive.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/IRSend.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_BangOlufsen.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_BoseWave.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_Denon.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_JVC.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_Kaseikyo.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_Lego.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_LG.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_MagiQuest.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_NEC.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_RC5_RC6.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_Samsung.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_Sony.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_FAST.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/TinyIR.h \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_Others.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_Pronto.hpp \
+ D:\77656\文档\Arduino\libraries\IRremote\src/ir_DistanceWidthProtocol.hpp

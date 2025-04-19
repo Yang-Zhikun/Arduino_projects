@@ -1,6 +1,0 @@
-D:\DevFiles\ArduinoFiles\Arduino_projects\U8G2_test\Build\libraries\U8glib\clib\u8g_com_arduino_std_sw_spi.c.o: \
- D:\77656\ÎÄµµ\Arduino\libraries\U8glib\src\clib\u8g_com_arduino_std_sw_spi.c \
- D:\77656\ÎÄµµ\Arduino\libraries\U8glib\src\clib\u8g.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/binary.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\variants\standard/pins_arduino.h
