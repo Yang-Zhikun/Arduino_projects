@@ -183,20 +183,11 @@ bool checkCollision(Snake &snake) {
 
 
 
-
-
-
-
-
-
 // 游戏对象实例化
 Snake snakeObj;
 Food foodObj;
 // 删除残留的全局数组
 // 原snake[]数组已被Snake类中的body数组替代
-
-
-
 
 
 /**
