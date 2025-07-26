@@ -1,4 +1,3 @@
-
 void setup(){
     Serial.begin(9600);
     pinMode(13, OUTPUT); //LED½Ó13

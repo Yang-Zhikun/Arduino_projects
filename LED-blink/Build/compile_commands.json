@@ -1,8 +1,8 @@
 [
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -21,18 +21,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\sketch\\LED-blink.ino.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\sketch\\LED-blink.ino.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\sketch\\LED-blink.ino.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\sketch\\LED-blink.ino.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\sketch\\LED-blink.ino.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\sketch\\LED-blink.ino.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -51,18 +51,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\CDC.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\CDC.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\HardwareSerial.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\CDC.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -81,18 +81,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\CDC.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\HardwareSerial.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\CDC.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\CDC.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -111,18 +111,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial0.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial1.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\HardwareSerial0.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\HardwareSerial1.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial0.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial1.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -141,18 +141,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial1.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial0.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\HardwareSerial1.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\HardwareSerial0.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial1.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial0.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -171,18 +171,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial2.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial2.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\HardwareSerial2.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\HardwareSerial2.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial2.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial2.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -201,18 +201,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\IPAddress.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial3.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\IPAddress.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\HardwareSerial3.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\IPAddress.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial3.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -231,18 +231,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial3.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\IPAddress.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\HardwareSerial3.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\IPAddress.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial3.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\IPAddress.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -261,18 +261,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\PluggableUSB.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\PluggableUSB.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\PluggableUSB.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\PluggableUSB.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\PluggableUSB.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\PluggableUSB.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -291,18 +291,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Print.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\Tone.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\Print.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Print.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -321,18 +321,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Print.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\Print.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\Stream.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Print.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -351,18 +351,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\Stream.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\Tone.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -381,18 +381,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\USBCore.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\USBCore.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\USBCore.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\USBCore.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\USBCore.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\USBCore.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
    "-c",
    "-g",
    "-Os",
@@ -408,18 +408,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WInterrupts.c",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WInterrupts.c",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\WInterrupts.c.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\WInterrupts.c.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WInterrupts.c"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WInterrupts.c"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -438,18 +438,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WMath.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WMath.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\WMath.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\WMath.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WMath.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WMath.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -468,18 +468,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WString.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WString.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\WString.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\WString.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WString.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WString.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -498,18 +498,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\abi.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\abi.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\abi.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\abi.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\abi.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\abi.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
    "-c",
    "-g",
    "-Os",
@@ -525,18 +525,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\hooks.c",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\hooks.c",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\hooks.c.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\hooks.c.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\hooks.c"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\hooks.c"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -555,18 +555,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\main.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\main.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\main.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\main.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\main.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\main.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
@@ -585,18 +585,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\new.cpp",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\new.cpp",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\new.cpp.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\new.cpp.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\new.cpp"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\new.cpp"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
    "-c",
    "-g",
    "-Os",
@@ -612,18 +612,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring.c",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring.c",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\wiring.c.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\wiring.c.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring.c"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring.c"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
    "-c",
    "-g",
    "-Os",
@@ -639,45 +639,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_analog.c",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_analog.c",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\wiring_analog.c.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\wiring_analog.c.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_analog.c"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_analog.c"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu11",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-MMD",
-   "-flto",
-   "-fno-fat-lto-objects",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_digital.c",
-   "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\wiring_digital.c.o"
-  ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_digital.c"
- },
- {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
-  "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
    "-c",
    "-g",
    "-x",
@@ -689,18 +662,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.S",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.S",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\wiring_pulse.S.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\wiring_pulse.S.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.S"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.S"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
    "-c",
    "-g",
    "-Os",
@@ -716,18 +689,18 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.c",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_digital.c",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\wiring_pulse.c.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\wiring_digital.c.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.c"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_digital.c"
  },
  {
-  "directory": "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink",
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
   "arguments": [
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
    "-c",
    "-g",
    "-Os",
@@ -743,12 +716,39 @@
    "-DARDUINO=10607",
    "-DARDUINO_AVR_UNO",
    "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_shift.c",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.c",
    "-o",
-   "D:\\DevFiles\\ArduinoFiles\\projects\\LED-blink\\Build\\core\\wiring_shift.c.o"
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\wiring_pulse.c.o"
   ],
-  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_shift.c"
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_pulse.c"
+ },
+ {
+  "directory": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink",
+  "arguments": [
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu11",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-MMD",
+   "-flto",
+   "-fno-fat-lto-objects",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_shift.c",
+   "-o",
+   "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\core\\wiring_shift.c.o"
+  ],
+  "file": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\wiring_shift.c"
  }
 ]

@@ -1,8 +1,9 @@
 #line 1 "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\U8G2_test\\.vscode\\tasks.json"
 {
+    // 按ctrl+shift+p运行tasks
     "version": "2.0.0",
     "tasks": [
-        // 仅编译 shift+alt+r
+        // 仅编译
         {
             "label": "Arduino: compile",
             "type": "shell",
@@ -23,7 +24,7 @@
             ]
         },
 
-        //仅上传 shift+alt+u
+        //仅上传
         {
             "label": "Arduino: upload",
             "type": "shell",
@@ -40,7 +41,7 @@
             ]
         },
 
-        //编译并上传 ctrl+alt+u
+        //编译并上传
         {
             "label": "Arduino: compile and upload",
             "type": "shell",

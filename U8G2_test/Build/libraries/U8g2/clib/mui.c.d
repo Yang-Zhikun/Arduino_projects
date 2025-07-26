@@ -1,3 +1,3 @@
 D:\DevFiles\ArduinoFiles\Arduino_projects\U8G2_test\Build\libraries\U8g2\clib\mui.c.o: \
- D:\77656\文档\Arduino\libraries\U8g2\src\clib\mui.c \
- D:\77656\文档\Arduino\libraries\U8g2\src\clib\mui.h
+ C:\Users\杨志焜\Documents\Arduino\libraries\U8g2\src\clib\mui.c \
+ C:\Users\杨志焜\Documents\Arduino\libraries\U8g2\src\clib\mui.h

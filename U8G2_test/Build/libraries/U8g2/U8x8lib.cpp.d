@@ -1,19 +1,19 @@
 D:\DevFiles\ArduinoFiles\Arduino_projects\U8G2_test\Build\libraries\U8g2\U8x8lib.cpp.o: \
- D:\77656\文档\Arduino\libraries\U8g2\src\U8x8lib.cpp \
- D:\77656\文档\Arduino\libraries\U8g2\src\U8x8lib.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/binary.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/WCharacter.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/WString.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/HardwareSerial.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/Stream.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/Print.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/Printable.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/USBAPI.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\variants\standard/pins_arduino.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/Print.h \
- D:\77656\文档\Arduino\libraries\U8g2\src\clib/u8x8.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\libraries\SPI\src/SPI.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\libraries\Wire\src/Wire.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\packages\arduino\hardware\avr\1.8.6\cores\arduino/Stream.h
+ C:\Users\杨志焜\Documents\Arduino\libraries\U8g2\src\U8x8lib.cpp \
+ C:\Users\杨志焜\Documents\Arduino\libraries\U8g2\src\U8x8lib.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/binary.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/WCharacter.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/WString.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/HardwareSerial.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/Stream.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/Print.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/Printable.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/USBAPI.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\variants\standard/pins_arduino.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/Print.h \
+ C:\Users\杨志焜\Documents\Arduino\libraries\U8g2\src\clib/u8x8.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\libraries\SPI\src/SPI.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\libraries\Wire\src/Wire.h \
+ D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/Stream.h

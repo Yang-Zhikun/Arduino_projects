@@ -1,3 +1,3 @@
 D:\DevFiles\ArduinoFiles\Arduino_projects\U8G2_test\Build\libraries\U8g2\clib\u8x8_capture.c.o: \
- D:\77656\文档\Arduino\libraries\U8g2\src\clib\u8x8_capture.c \
- D:\77656\文档\Arduino\libraries\U8g2\src\clib\u8x8.h
+ C:\Users\杨志焜\Documents\Arduino\libraries\U8g2\src\clib\u8x8_capture.c \
+ C:\Users\杨志焜\Documents\Arduino\libraries\U8g2\src\clib\u8x8.h
