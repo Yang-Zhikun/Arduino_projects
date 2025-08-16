@@ -1,0 +1,9 @@
+{
+  "additionalFiles": "..\\..\\..,..\\..\\..,..\\..\\..",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "build.warn_data_percentage=75",
+  "fqbn": "arduino:avr:uno",
+  "hardwareFolders": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages",
+  "otherLibrariesFolders": "D:\\77656\\文档\\Arduino\\libraries",
+  "sketchLocation": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532"
+}

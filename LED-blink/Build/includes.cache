@@ -2,15 +2,15 @@
   {
     "Sourcefile": null,
     "Include": "",
-    "Includepath": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino"
+    "Includepath": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino"
   },
   {
     "Sourcefile": null,
     "Include": "",
-    "Includepath": "D:\\DevFiles\\ArduinoFiles\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard"
+    "Includepath": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard"
   },
   {
-    "Sourcefile": "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\Build\\sketch\\LED-blink.ino.cpp",
+    "Sourcefile": "D:\\DevFiles\\Arduino\\Arduino_projects\\LED-blink\\Build\\sketch\\LED-blink.ino.cpp",
     "Include": "",
     "Includepath": null
   }

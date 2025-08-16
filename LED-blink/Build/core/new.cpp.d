@@ -1,4 +1,4 @@
-D:\DevFiles\ArduinoFiles\Arduino_projects\LED-blink\Build\core\new.cpp.o: \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\new.cpp \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\new.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\new
+D:\DevFiles\Arduino\Arduino_projects\LED-blink\Build\core\new.cpp.o: \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\new.cpp \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\new.h \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\new

@@ -1,0 +1,5 @@
+在VScode上面写Arduino代码报错 Serial 未定义的问题：
+1.首先需要包含这个HardwareSerial.h头文件；
+2.检查一下这个文件是否有 extern HardwareSerial Serial;这样一句代码；可以用Ctrl+ F全局搜索一下。
+3.没有的话可以在140行 加上这句话；
+4.之后将工程重新编译一下，就好了。

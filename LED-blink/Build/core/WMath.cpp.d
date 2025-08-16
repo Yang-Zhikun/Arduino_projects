@@ -1,2 +1,2 @@
-D:\DevFiles\ArduinoFiles\Arduino_projects\LED-blink\Build\core\WMath.cpp.o: \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\WMath.cpp
+D:\DevFiles\Arduino\Arduino_projects\LED-blink\Build\core\WMath.cpp.o: \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\WMath.cpp

@@ -1,12 +1,12 @@
 #include <Arduino.h>
-#line 1 "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\LED-blink.ino"
-#line 1 "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\LED-blink.ino"
+#line 1 "D:\\DevFiles\\Arduino\\Arduino_projects\\LED-blink\\LED-blink.ino"
+#line 1 "D:\\DevFiles\\Arduino\\Arduino_projects\\LED-blink\\LED-blink.ino"
 void setup();
-#line 5 "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\LED-blink.ino"
+#line 5 "D:\\DevFiles\\Arduino\\Arduino_projects\\LED-blink\\LED-blink.ino"
 void loop();
-#line 1 "D:\\DevFiles\\ArduinoFiles\\Arduino_projects\\LED-blink\\LED-blink.ino"
+#line 1 "D:\\DevFiles\\Arduino\\Arduino_projects\\LED-blink\\LED-blink.ino"
 void setup(){
-    Serial.begin(9600);
+    Serial.begin(115200);
     pinMode(13, OUTPUT); //LED½Ó13
 }
 void loop(){

@@ -1,14 +1,14 @@
-D:\DevFiles\ArduinoFiles\Arduino_projects\LED-blink\Build\core\HardwareSerial2.cpp.o: \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\HardwareSerial2.cpp \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\Arduino.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\binary.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\WCharacter.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\WString.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\HardwareSerial.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\Stream.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\Print.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\Printable.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\USBAPI.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\variants\standard/pins_arduino.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\HardwareSerial_private.h \
- D:\DevFiles\ArduinoFiles\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\wiring_private.h
+D:\DevFiles\Arduino\Arduino_projects\LED-blink\Build\core\HardwareSerial2.cpp.o: \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\HardwareSerial2.cpp \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\Arduino.h \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\binary.h \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\WCharacter.h \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\WString.h \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\HardwareSerial.h \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\Stream.h \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\Print.h \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\Printable.h \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\USBAPI.h \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\variants\standard/pins_arduino.h \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\HardwareSerial_private.h \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino\wiring_private.h
