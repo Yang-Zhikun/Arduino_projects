@@ -1,26 +1,32 @@
 #include <Arduino.h>
 #line 1 "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\NFC_PN532.ino"
-#include <PN532_HSU.h>
 #include <PN532.h>
+#include <PN532_SWHSU.h>
+#include <SoftwareSerial.h>
 
-PN532_HSU pn532hsu(Serial);
-PN532 nfc(pn532hsu);
+#define PN532_TX 2
+#define PN532_RX 3
 
-void setup(void)
-{
-    Serial.begin(115200);
-    delay(100);
-    Serial.println("Hello! PN532 HSU");
+SoftwareSerial nfc(PN532_TX, PN532_RX);
+const uint8_t wakeup[] = {0x55, 0x55, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xFF, 0x03, 0xFD, 0xD4, 0x14, 0x01, 0x17, 0x00};
 
-    nfc.begin();
 
-    uint32_t versiondata = nfc.getFirmwareVersion();
-    if (!versiondata) {
-        Serial.println("Didn't find PN532 board");
-        while (1);
-    }
-    Serial.print("Found chip PN532");
+#line 12 "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\NFC_PN532.ino"
+void setup();
+#line 22 "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\NFC_PN532.ino"
+void loop();
+#line 12 "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\NFC_PN532.ino"
+void setup() {
+  Serial.begin(115200);
+  nfc.begin(115200);
+  nfc.write(wakeup, sizeof(wakeup));
+  delay(1000);
+  while (nfc.available()) {
+    Serial.println(nfc.read());
+  }
 }
 
 void loop() {
+  // put your main code here, to run repeatedly:
+
 }

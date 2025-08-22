@@ -23,10 +23,8 @@
    "-DARDUINO_ARCH_AVR",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_PN532",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532_SWHSU",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src",
    "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\sketch\\NFC_PN532.ino.cpp",
    "-o",
@@ -37,17 +35,20 @@
  {
   "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
   "arguments": [
-   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
    "-c",
    "-g",
    "-Os",
    "-w",
-   "-std=gnu11",
+   "-std=gnu++11",
+   "-fpermissive",
+   "-fno-exceptions",
    "-ffunction-sections",
    "-fdata-sections",
+   "-fno-threadsafe-statics",
+   "-Wno-error=narrowing",
    "-MMD",
    "-flto",
-   "-fno-fat-lto-objects",
    "-mmcu=atmega328p",
    "-DF_CPU=16000000L",
    "-DARDUINO=10607",
@@ -55,16 +56,14 @@
    "-DARDUINO_ARCH_AVR",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_PN532",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532_SWHSU",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src",
-   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src\\utility\\twi.c",
+   "D:\\77656\\文档\\Arduino\\libraries\\PN532\\PN532.cpp",
    "-o",
-   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\libraries\\Wire\\utility\\twi.c.o"
+   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\libraries\\PN532\\PN532.cpp.o"
   ],
-  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src\\utility\\twi.c"
+  "file": "D:\\77656\\文档\\Arduino\\libraries\\PN532\\PN532.cpp"
  },
  {
   "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
@@ -90,16 +89,14 @@
    "-DARDUINO_ARCH_AVR",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_PN532",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532_SWHSU",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src",
-   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src\\Wire.cpp",
+   "D:\\77656\\文档\\Arduino\\libraries\\PN532\\llcp.cpp",
    "-o",
-   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\libraries\\Wire\\Wire.cpp.o"
+   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\libraries\\PN532\\llcp.cpp.o"
   ],
-  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src\\Wire.cpp"
+  "file": "D:\\77656\\文档\\Arduino\\libraries\\PN532\\llcp.cpp"
  },
  {
   "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
@@ -125,16 +122,14 @@
    "-DARDUINO_ARCH_AVR",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_PN532",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532_SWHSU",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src",
-   "D:\\77656\\文档\\Arduino\\libraries\\Adafruit_PN532\\Adafruit_PN532.cpp",
+   "D:\\77656\\文档\\Arduino\\libraries\\PN532\\emulatetag.cpp",
    "-o",
-   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\libraries\\Adafruit_PN532\\Adafruit_PN532.cpp.o"
+   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\libraries\\PN532\\emulatetag.cpp.o"
   ],
-  "file": "D:\\77656\\文档\\Arduino\\libraries\\Adafruit_PN532\\Adafruit_PN532.cpp"
+  "file": "D:\\77656\\文档\\Arduino\\libraries\\PN532\\emulatetag.cpp"
  },
  {
   "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
@@ -160,16 +155,14 @@
    "-DARDUINO_ARCH_AVR",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_PN532",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532_SWHSU",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src",
-   "D:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_GenericDevice.cpp",
+   "D:\\77656\\文档\\Arduino\\libraries\\PN532\\snep.cpp",
    "-o",
-   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\libraries\\Adafruit_BusIO\\Adafruit_GenericDevice.cpp.o"
+   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\libraries\\PN532\\snep.cpp.o"
   ],
-  "file": "D:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_GenericDevice.cpp"
+  "file": "D:\\77656\\文档\\Arduino\\libraries\\PN532\\snep.cpp"
  },
  {
   "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
@@ -195,16 +188,14 @@
    "-DARDUINO_ARCH_AVR",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_PN532",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532_SWHSU",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src",
-   "D:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_SPIDevice.cpp",
+   "D:\\77656\\文档\\Arduino\\libraries\\PN532\\mac_link.cpp",
    "-o",
-   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\libraries\\Adafruit_BusIO\\Adafruit_SPIDevice.cpp.o"
+   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\libraries\\PN532\\mac_link.cpp.o"
   ],
-  "file": "D:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_SPIDevice.cpp"
+  "file": "D:\\77656\\文档\\Arduino\\libraries\\PN532\\mac_link.cpp"
  },
  {
   "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
@@ -230,16 +221,14 @@
    "-DARDUINO_ARCH_AVR",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_PN532",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532_SWHSU",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src",
-   "D:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_I2CDevice.cpp",
+   "D:\\77656\\文档\\Arduino\\libraries\\PN532_SWHSU\\PN532_SWHSU.cpp",
    "-o",
-   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\libraries\\Adafruit_BusIO\\Adafruit_I2CDevice.cpp.o"
+   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\libraries\\PN532_SWHSU\\PN532_SWHSU.cpp.o"
   ],
-  "file": "D:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_I2CDevice.cpp"
+  "file": "D:\\77656\\文档\\Arduino\\libraries\\PN532_SWHSU\\PN532_SWHSU.cpp"
  },
  {
   "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
@@ -265,80 +254,8 @@
    "-DARDUINO_ARCH_AVR",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_PN532",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src",
-   "D:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_BusIO_Register.cpp",
-   "-o",
-   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\libraries\\Adafruit_BusIO\\Adafruit_BusIO_Register.cpp.o"
-  ],
-  "file": "D:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO\\Adafruit_BusIO_Register.cpp"
- },
- {
-  "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
-  "arguments": [
-   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu++11",
-   "-fpermissive",
-   "-fno-exceptions",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-fno-threadsafe-statics",
-   "-Wno-error=narrowing",
-   "-MMD",
-   "-flto",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_PN532",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src",
-   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src\\SPI.cpp",
-   "-o",
-   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\libraries\\SPI\\SPI.cpp.o"
-  ],
-  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src\\SPI.cpp"
- },
- {
-  "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
-  "arguments": [
-   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu++11",
-   "-fpermissive",
-   "-fno-exceptions",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-fno-threadsafe-statics",
-   "-Wno-error=narrowing",
-   "-MMD",
-   "-flto",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\Wire\\src",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_PN532",
-   "-ID:\\77656\\文档\\Arduino\\libraries\\Adafruit_BusIO",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SPI\\src",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532",
+   "-ID:\\77656\\文档\\Arduino\\libraries\\PN532_SWHSU",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src",
    "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src\\SoftwareSerial.cpp",
    "-o",
@@ -520,6 +437,36 @@
    "-DARDUINO_ARCH_AVR",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\PluggableUSB.cpp",
+   "-o",
+   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\core\\PluggableUSB.cpp.o"
+  ],
+  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\PluggableUSB.cpp"
+ },
+ {
+  "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
+  "arguments": [
+   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu++11",
+   "-fpermissive",
+   "-fno-exceptions",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-fno-threadsafe-statics",
+   "-Wno-error=narrowing",
+   "-MMD",
+   "-flto",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
    "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\HardwareSerial3.cpp",
    "-o",
    "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\core\\HardwareSerial3.cpp.o"
@@ -580,71 +527,11 @@
    "-DARDUINO_ARCH_AVR",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\PluggableUSB.cpp",
-   "-o",
-   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\core\\PluggableUSB.cpp.o"
-  ],
-  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\PluggableUSB.cpp"
- },
- {
-  "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
-  "arguments": [
-   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu++11",
-   "-fpermissive",
-   "-fno-exceptions",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-fno-threadsafe-statics",
-   "-Wno-error=narrowing",
-   "-MMD",
-   "-flto",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
    "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Print.cpp",
    "-o",
    "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\core\\Print.cpp.o"
   ],
   "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Print.cpp"
- },
- {
-  "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
-  "arguments": [
-   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
-   "-c",
-   "-g",
-   "-Os",
-   "-w",
-   "-std=gnu++11",
-   "-fpermissive",
-   "-fno-exceptions",
-   "-ffunction-sections",
-   "-fdata-sections",
-   "-fno-threadsafe-statics",
-   "-Wno-error=narrowing",
-   "-MMD",
-   "-flto",
-   "-mmcu=atmega328p",
-   "-DF_CPU=16000000L",
-   "-DARDUINO=10607",
-   "-DARDUINO_AVR_UNO",
-   "-DARDUINO_ARCH_AVR",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp",
-   "-o",
-   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\core\\Stream.cpp.o"
-  ],
-  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp"
  },
  {
   "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
@@ -697,11 +584,11 @@
    "-DARDUINO_ARCH_AVR",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WMath.cpp",
+   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp",
    "-o",
-   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\core\\WMath.cpp.o"
+   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\core\\Tone.cpp.o"
   ],
-  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WMath.cpp"
+  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp"
  },
  {
   "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
@@ -757,11 +644,41 @@
    "-DARDUINO_ARCH_AVR",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp",
+   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp",
    "-o",
-   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\core\\Tone.cpp.o"
+   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\core\\Stream.cpp.o"
   ],
-  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Tone.cpp"
+  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Stream.cpp"
+ },
+ {
+  "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
+  "arguments": [
+   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+   "-c",
+   "-g",
+   "-Os",
+   "-w",
+   "-std=gnu++11",
+   "-fpermissive",
+   "-fno-exceptions",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-fno-threadsafe-statics",
+   "-Wno-error=narrowing",
+   "-MMD",
+   "-flto",
+   "-mmcu=atmega328p",
+   "-DF_CPU=16000000L",
+   "-DARDUINO=10607",
+   "-DARDUINO_AVR_UNO",
+   "-DARDUINO_ARCH_AVR",
+   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+   "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WMath.cpp",
+   "-o",
+   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\core\\WMath.cpp.o"
+  ],
+  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\WMath.cpp"
  },
  {
   "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
@@ -874,11 +791,11 @@
    "-DARDUINO_ARCH_AVR",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\main.cpp",
+   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\new.cpp",
    "-o",
-   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\core\\main.cpp.o"
+   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\core\\new.cpp.o"
   ],
-  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\main.cpp"
+  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\new.cpp"
  },
  {
   "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",
@@ -904,11 +821,11 @@
    "-DARDUINO_ARCH_AVR",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
    "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\new.cpp",
+   "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\main.cpp",
    "-o",
-   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\core\\new.cpp.o"
+   "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\core\\main.cpp.o"
   ],
-  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\new.cpp"
+  "file": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\main.cpp"
  },
  {
   "directory": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532",

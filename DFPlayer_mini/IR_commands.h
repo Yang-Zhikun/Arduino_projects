@@ -1,5 +1,4 @@
-#ifndef IR_COMMANDS_H
-#define IR_COMMANDS_H
+#Pragma once
 
 
 #define IR_PROTOCOL 8 // 红外信号的协议(NEC)
@@ -36,6 +35,3 @@
 void IR_receive(int IR_pin){
     
 }
-
-
-#endif

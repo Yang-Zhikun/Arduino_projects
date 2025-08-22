@@ -1,0 +1,67 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard"
+  },
+  {
+    "Sourcefile": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\sketch\\NFC_PN532.ino.cpp",
+    "Include": "PN532.h",
+    "Includepath": "D:\\77656\\文档\\Arduino\\libraries\\PN532"
+  },
+  {
+    "Sourcefile": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\sketch\\NFC_PN532.ino.cpp",
+    "Include": "PN532_SWHSU.h",
+    "Includepath": "D:\\77656\\文档\\Arduino\\libraries\\PN532_SWHSU"
+  },
+  {
+    "Sourcefile": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\sketch\\NFC_PN532.ino.cpp",
+    "Include": "SoftwareSerial.h",
+    "Includepath": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src"
+  },
+  {
+    "Sourcefile": "D:\\DevFiles\\Arduino\\Arduino_projects\\NFC_PN532\\Build\\sketch\\NFC_PN532.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\77656\\文档\\Arduino\\libraries\\PN532\\PN532.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\77656\\文档\\Arduino\\libraries\\PN532\\emulatetag.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\77656\\文档\\Arduino\\libraries\\PN532\\llcp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\77656\\文档\\Arduino\\libraries\\PN532\\mac_link.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\77656\\文档\\Arduino\\libraries\\PN532\\snep.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\77656\\文档\\Arduino\\libraries\\PN532_SWHSU\\PN532_SWHSU.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\libraries\\SoftwareSerial\\src\\SoftwareSerial.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

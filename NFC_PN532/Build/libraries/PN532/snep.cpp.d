@@ -1,6 +1,11 @@
-D:\DevFiles\Arduino\Arduino_projects\NFC_PN532\Build\libraries\Adafruit_BusIO\Adafruit_GenericDevice.cpp.o: \
- D:\77656\文档\Arduino\libraries\Adafruit_BusIO\Adafruit_GenericDevice.cpp \
- D:\77656\文档\Arduino\libraries\Adafruit_BusIO\Adafruit_GenericDevice.h \
+D:\DevFiles\Arduino\Arduino_projects\NFC_PN532\Build\libraries\PN532\snep.cpp.o: \
+ D:\77656\文档\Arduino\libraries\PN532\snep.cpp \
+ D:\77656\文档\Arduino\libraries\PN532\snep.h \
+ D:\77656\文档\Arduino\libraries\PN532\llcp.h \
+ D:\77656\文档\Arduino\libraries\PN532\mac_link.h \
+ D:\77656\文档\Arduino\libraries\PN532\PN532.h \
+ D:\77656\文档\Arduino\libraries\PN532\PN532Interface.h \
+ D:\77656\文档\Arduino\libraries\PN532\PN532_debug.h \
  D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
  D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/binary.h \
  D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/WCharacter.h \

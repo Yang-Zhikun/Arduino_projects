@@ -11,10 +11,9 @@ D:\DevFiles\Arduino\Arduino_projects\NFC_PN532\Build\sketch\NFC_PN532.ino.cpp.o:
  D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/USBAPI.h \
  D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
  D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\variants\standard/pins_arduino.h \
- D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\libraries\Wire\src/Wire.h \
+ D:\77656\文档\Arduino\libraries\PN532/PN532.h \
+ D:\77656\文档\Arduino\libraries\PN532/PN532Interface.h \
+ D:\77656\文档\Arduino\libraries\PN532_SWHSU/PN532_SWHSU.h \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\libraries\SoftwareSerial\src/SoftwareSerial.h \
  D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/Stream.h \
- D:\77656\文档\Arduino\libraries\Adafruit_PN532/Adafruit_PN532.h \
- D:\77656\文档\Arduino\libraries\Adafruit_BusIO/Adafruit_I2CDevice.h \
- D:\77656\文档\Arduino\libraries\Adafruit_BusIO/Adafruit_SPIDevice.h \
- D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\libraries\SPI\src/SPI.h \
- D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\libraries\SoftwareSerial\src/SoftwareSerial.h
+ D:\77656\文档\Arduino\libraries\PN532/PN532Interface.h
