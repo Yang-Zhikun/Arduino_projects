@@ -1,0 +1,27 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard"
+  },
+  {
+    "Sourcefile": "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Build\\sketch\\Physical_Experiment.ino.cpp",
+    "Include": "DHT11.h",
+    "Includepath": "D:\\77656\\文档\\Arduino\\libraries\\DHT11\\src"
+  },
+  {
+    "Sourcefile": "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Build\\sketch\\Physical_Experiment.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "D:\\77656\\文档\\Arduino\\libraries\\DHT11\\src\\DHT11.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

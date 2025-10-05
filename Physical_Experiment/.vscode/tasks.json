@@ -1,0 +1,61 @@
+{
+    // 按ctrl+shift+p运行tasks
+    "version": "2.0.0",
+    "tasks": [
+        // 仅编译
+        {
+            "label": "Arduino: compile",
+            "type": "shell",
+            "command": "arduino-cli",
+            "args": [
+                "compile",
+                "-v",
+                "--build-path",
+                ".\\build",
+                "-e",
+                "-b",
+                "arduino:avr:uno",
+                "--output-dir",
+                "./",
+                "--build-path",
+                "${fileDirname}\\Build",
+                "${fileDirname}\\${fileBasenameNoExtension}.ino"
+            ]
+        },
+
+        //仅上传
+        {
+            "label": "Arduino: upload",
+            "type": "shell",
+            "command": "arduino-cli",
+            "args": [
+                "upload",
+                "--port",
+                "COM3",
+                "-v",
+                "-b",
+                "arduino:avr:uno",
+                "--input-dir",
+                "${fileDirname}\\Build"
+            ]
+        },
+
+        //编译并上传
+        {
+            "label": "Arduino: compile and upload",
+            "type": "shell",
+            "dependsOn": ["Arduino: compile"],
+            "command": "arduino-cli",
+            "args": [
+                "upload",
+                "--port",
+                "COM3",
+                "-v",
+                "-b",
+                "arduino:avr:uno",
+                "--input-dir",
+                "${fileDirname}\\Build"
+            ]
+        }
+    ]
+}
