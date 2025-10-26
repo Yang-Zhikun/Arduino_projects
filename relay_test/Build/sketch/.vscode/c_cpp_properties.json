@@ -1,0 +1,27 @@
+#line 1 "D:\\DevFiles\\Arduino\\Arduino_projects\\relay_test\\.vscode\\c_cpp_properties.json"
+{
+    "configurations": [
+        {
+            "name": "arduino",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/77656/文档/Arduino/libraries/**",
+                "D:/DevFiles/Arduino/arduino-cli/config/packages/arduino/hardware/avr/1.8.6/**"
+            ],
+            "forcedInclude": [
+                "D:/DevFiles/Arduino/arduino-cli/config/packages/arduino/hardware/avr/1.8.6/cores/arduino/Arduino.h",
+                "D:/DevFiles/Arduino/arduino-cli/config/packages/arduino/hardware/avr/1.8.6/cores/arduino/HardwareSerial.h"
+            ],
+            "defines": [
+                "ARDUINO=10607",
+                "ARDUINO_AVR_UNO",
+                "ARDUINO_ARCH_AVR"
+            ],
+            "compilerPath": "D:/DevFiles/Arduino/arduino-cli/config/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,50 +1,42 @@
 #include <Arduino.h>
 #line 1 "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Physical_Experiment.ino"
-/**
- * 
- */
+#include <DHT11.h>
 
-#include<DHT11.h>
-#define DHT11_1_PIN 13
-#define DHT11_2_PIN 12
-DHT11 dht11_1(DHT11_1_PIN);
-DHT11 dht11_2(DHT11_2_PIN);
+#define DHT_PIN 13          // DHT11传感器引脚
+#define BUTTON_PIN 12       // 按钮引脚
 
-#line 11 "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Physical_Experiment.ino"
+// 初始化DHT传感器
+DHT11 dht(DHT_PIN);
+
+#line 9 "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Physical_Experiment.ino"
 void setup();
-#line 17 "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Physical_Experiment.ino"
+#line 15 "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Physical_Experiment.ino"
 void loop();
-#line 11 "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Physical_Experiment.ino"
+#line 9 "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Physical_Experiment.ino"
 void setup() {
-    Serial.begin(115200);
-    pinMode(DHT11_2_PIN, INPUT_PULLUP);
-    pinMode(DHT11_1_PIN, INPUT_PULLUP);
+    Serial.begin(115200);     // 串口初始化
+    pinMode(DHT_PIN, INPUT_PULLUP);
+    pinMode(BUTTON_PIN, INPUT_PULLUP);
 }
 
-void loop(){
-    int temp1 = dht11_1.readTemperature();
-    int hum1 = dht11_1.readHumidity();
-    if (temp1 == DHT11::ERROR_TIMEOUT || hum1 == DHT11::ERROR_TIMEOUT || temp1 == DHT11::ERROR_CHECKSUM || hum1 == DHT11::ERROR_CHECKSUM){
-        Serial.println("dht11_1 Error");
+void loop() {
+    int temp, hum;
+    temp = dht.readTemperature();
+    hum = dht.readHumidity();
+    if (temp == DHT11::ERROR_TIMEOUT || hum == DHT11::ERROR_TIMEOUT || temp == DHT11::ERROR_CHECKSUM || hum == DHT11::ERROR_CHECKSUM) {
+        Serial.println("DHT11 Error");
     }
-    else{
-        Serial.print("Temperature1: ");
-        Serial.print(temp1);
-        Serial.print(".C, Humidity1: ");
-        Serial.print(hum1);
+    else {
+        Serial.print("Temperature: ");
+        Serial.print(temp);
+        Serial.print(" C, Humidity: ");
+        Serial.print(hum);
         Serial.println("%");
     }
+    delay(1000);  // 每秒循环一次
 
-    int temp2 = dht11_2.readTemperature();
-    int hum2 = dht11_2.readHumidity();
-    if (temp2 == DHT11::ERROR_TIMEOUT){
-        Serial.println("dht11_2 Error");
-    }
-    else{
-        Serial.print("Temperature2: ");
-        Serial.print(temp2);
-        Serial.print(".C, Humidity2: ");
-        Serial.print(hum2);
-        Serial.println("%");
+    if(digitalRead(BUTTON_PIN) == LOW){
+        delay(50);
+        Serial.println("Button pressed");
     }
 }
