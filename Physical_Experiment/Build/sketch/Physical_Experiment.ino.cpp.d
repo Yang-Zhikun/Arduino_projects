@@ -11,4 +11,4 @@ D:\DevFiles\Arduino\Arduino_projects\Physical_Experiment\Build\sketch\Physical_E
  D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/USBAPI.h \
  D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
  D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\variants\standard/pins_arduino.h \
- D:\77656\ÎÄµµ\Arduino\libraries\DHT11\src/DHT11.h
+ D:\77656(2)\ÎÄµµ\Arduino\libraries\DHT11\src/DHT11.h

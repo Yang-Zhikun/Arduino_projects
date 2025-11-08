@@ -1,3 +1,4 @@
+#include<HardwareSerial.h>
 void setup(){
     Serial.begin(115200);
     pinMode(13, OUTPUT); //LED½Ó13

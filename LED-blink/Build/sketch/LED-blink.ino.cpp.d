@@ -10,4 +10,5 @@ D:\DevFiles\Arduino\Arduino_projects\LED-blink\Build\sketch\LED-blink.ino.cpp.o:
  D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/Printable.h \
  D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/USBAPI.h \
  D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/Arduino.h \
- D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\variants\standard/pins_arduino.h
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\variants\standard/pins_arduino.h \
+ D:\DevFiles\Arduino\arduino-cli\config\packages\arduino\hardware\avr\1.8.6\cores\arduino/HardwareSerial.h

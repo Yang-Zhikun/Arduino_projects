@@ -1,4 +1,4 @@
 {
     "files.autoSave": "afterDelay",
-    "files.encoding": "gbk",
+    "files.encoding": "utf8",
 }

@@ -1,103 +1,73 @@
 #include <DHT11.h>
 
-#define DHT1_PIN 13          // µÚÒ»¸öDHT11´«¸ĞÆ÷Òı½Å
-#define DHT2_PIN 12          // µÚ¶ş¸öDHT11´«¸ĞÆ÷Òı½Å
-#define DHT3_PIN 11          // µÚÈı¸öDHT11´«¸ĞÆ÷Òı½Å
+#define DHT1_PIN 13          // ç¬¬ä¸€ä¸ªDHT11ä¼ æ„Ÿå™¨å¼•è„š
+#define DHT2_PIN 12          // ç¬¬äºŒä¸ªDHT11ä¼ æ„Ÿå™¨å¼•è„š
+#define FAN_PIN 8           // é£æ‰‡æ§åˆ¶å¼•è„š
 
-// ³õÊ¼»¯DHT´«¸ĞÆ÷
+// åˆå§‹åŒ–DHTä¼ æ„Ÿå™¨
 DHT11 dht1(DHT1_PIN);
 DHT11 dht2(DHT2_PIN);
-DHT11 dht3(DHT3_PIN);
 
 void setup() {
-    Serial.begin(115200);     // ´®¿Ú³õÊ¼»¯
-    pinMode(DHT1_PIN, INPUT_PULLUP);
-    pinMode(DHT2_PIN, INPUT_PULLUP);
-    pinMode(DHT3_PIN, INPUT_PULLUP);
-    pinMode(8, OUTPUT);
-    digitalWrite(8, HIGH);
+    Serial.begin(115200);     // ä¸²å£åˆå§‹åŒ–
+    pinMode(FAN_PIN, OUTPUT);
+    digitalWrite(FAN_PIN, HIGH);
+
+    // è¯•è¯»å–ä¼ æ„Ÿå™¨æ•°æ®
+    dht1.readTemperature();
+    dht1.readHumidity();
+    dht2.readTemperature();
+    dht2.readHumidity();
 }
 
 void loop() {
-    int temp1, hum1;
+    // è¯»å–ä¼ æ„Ÿå™¨æ•°æ®
+    int temp1, humi1;
     temp1 = dht1.readTemperature();
-    hum1 = dht1.readHumidity();
-    if (temp1 == DHT11::ERROR_TIMEOUT || hum1 == DHT11::ERROR_TIMEOUT || temp1 == DHT11::ERROR_CHECKSUM || hum1 == DHT11::ERROR_CHECKSUM) {
+    humi1 = dht1.readHumidity();
+
+    int temp2, humi2;
+    temp2 = dht2.readTemperature();
+    humi2 = dht2.readHumidity();
+
+    // è¾“å‡ºæ•°æ®åˆ°ä¸²å£
+    if (temp1 == DHT11::ERROR_TIMEOUT || humi1 == DHT11::ERROR_TIMEOUT || temp1 == DHT11::ERROR_CHECKSUM || humi1 == DHT11::ERROR_CHECKSUM) {
         Serial.print("DHT11_1 Error: ");
-        if (temp1 == DHT11::ERROR_TIMEOUT) {
-            Serial.print("TEMP Timeout Error;  ");
-        }
-        if (temp1 == DHT11::ERROR_CHECKSUM) {
-            Serial.print("TEMP Checksum Error;  ");
-        }
-        if (hum1 == DHT11::ERROR_TIMEOUT) {
-            Serial.print("HUM Timeout Error;  ");
-        }
-        if (hum1 == DHT11::ERROR_CHECKSUM) {
-            Serial.print("HUM Checksum Error;  ");
-        }
     }
     else {
         Serial.print("Temp_1: ");
         Serial.print(temp1);
-        Serial.print(" C, Hum_1: ");
-        Serial.print(hum1);
+        Serial.print(" C, Humi_1: ");
+        Serial.print(humi1);
         Serial.print("%;  ");
     }
 
-    int temp2, hum2;
-    temp2 = dht2.readTemperature();
-    hum2 = dht2.readHumidity();
-    if (temp2 == DHT11::ERROR_TIMEOUT || hum2 == DHT11::ERROR_TIMEOUT || temp2 == DHT11::ERROR_CHECKSUM || hum2 == DHT11::ERROR_CHECKSUM) {
+    if (temp2 == DHT11::ERROR_TIMEOUT || humi2 == DHT11::ERROR_TIMEOUT || temp2 == DHT11::ERROR_CHECKSUM || humi2 == DHT11::ERROR_CHECKSUM) {
         Serial.print("DHT11_2 Error: ");
-        if (temp2 == DHT11::ERROR_TIMEOUT) {
-            Serial.print("TEMP Timeout Error;  ");
-        }
-        if (temp2 == DHT11::ERROR_CHECKSUM) {
-            Serial.print("TEMP Checksum Error;  ");
-        }
-        if (hum2 == DHT11::ERROR_TIMEOUT) {
-            Serial.print("HUM Timeout Error;  ");
-        }
-        if (hum2 == DHT11::ERROR_CHECKSUM) {
-            Serial.print("HUM Checksum Error;  ");
-        }
     }
     else {
         Serial.print("Temp_2: ");
         Serial.print(temp2);
-        Serial.print(" C, Hum_2: ");
-        Serial.print(hum2);
+        Serial.print(" C, Humi_2: ");
+        Serial.print(humi2);
         Serial.print("%;  ");
     }
 
-    int temp3, hum3;
-    temp3 = dht3.readTemperature();
-    hum3 = dht3.readHumidity();
-    if (temp3 == DHT11::ERROR_TIMEOUT || hum3 == DHT11::ERROR_TIMEOUT || temp3 == DHT11::ERROR_CHECKSUM || hum3 == DHT11::ERROR_CHECKSUM) {
-        Serial.print("DHT11_3 Error: ");
-        if (temp3 == DHT11::ERROR_TIMEOUT) {
-            Serial.println("TEMP Timeout Error;  ");
-        }
-        if (temp3 == DHT11::ERROR_CHECKSUM) {
-            Serial.println("TEMP Checksum Error;  ");
-        }
-        if (hum3 == DHT11::ERROR_TIMEOUT) {
-            Serial.println("HUM Timeout Error;  ");
-        }
-        if (hum3 == DHT11::ERROR_CHECKSUM) {
-            Serial.println("HUM Checksum Error;  ");
-        }
+    // ç‰¹åˆ¤æ¸©åº¦ç­‰äº0çš„æƒ…å†µ
+    if (temp1 == 0 && temp2 != 0) {
+        temp1 = temp2;
+    } 
+    else if (temp2 == 0 && temp1 != 0) {
+        temp2 = temp1;
     }
-    else {
-        Serial.print("Temp_3: ");
-        Serial.print(temp3);
-        Serial.print(" C, Hum_3: ");
-        Serial.print(hum3);
-        Serial.println("%;  ");
-    }
+    // è®¡ç®—å¹³å‡å€¼
+    float avgTemp = (temp1 + temp2) / 2.0;
+    float avgHumi = (humi1 + humi2) / 2.0;
+    Serial.print("Avg Temp: ");
+    Serial.print(avgTemp);
+    Serial.print(" C, Avg Humi: ");
+    Serial.print(avgHumi);
+    Serial.println("%;  ");
 
-
-
-    delay(1000);
+    //delay(10);
 }

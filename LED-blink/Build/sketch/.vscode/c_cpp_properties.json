@@ -5,7 +5,7 @@
             "name": "arduino",
             "includePath": [
                 "${workspaceFolder}/**",
-                "D:/77656/文档/Arduino/libraries/**",
+                "D:/77656(2)/文档/Arduino/libraries/**",
                 "D:/DevFiles/Arduino/arduino-cli/config/packages/arduino/hardware/avr/1.8.6/**"
             ],
             "forcedInclude": [

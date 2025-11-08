@@ -1,27 +1,139 @@
 [
   {
-    "Sourcefile": null,
-    "Include": "",
-    "Includepath": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino"
+    "added_include_path": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino"
   },
   {
-    "Sourcefile": null,
-    "Include": "",
-    "Includepath": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard"
+    "added_include_path": "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard"
   },
   {
-    "Sourcefile": "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Build\\sketch\\Physical_Experiment.ino.cpp",
-    "Include": "DHT11.h",
-    "Includepath": "D:\\77656\\文档\\Arduino\\libraries\\DHT11\\src"
+    "compile": {
+      "source_path": "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Build\\sketch\\Physical_Experiment.ino.cpp",
+      "object_path": "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Build\\sketch\\Physical_Experiment.ino.cpp.o",
+      "depfile_path": "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Build\\sketch\\Physical_Experiment.ino.cpp.d"
+    },
+    "compile_task": {
+      "args": [
+        "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+        "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Build\\sketch\\Physical_Experiment.ino.cpp",
+        "-o",
+        "nul"
+      ]
+    }
   },
   {
-    "Sourcefile": "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Build\\sketch\\Physical_Experiment.ino.cpp",
-    "Include": "",
-    "Includepath": null
+    "missing_include_h": "DHT11.h"
   },
   {
-    "Sourcefile": "D:\\77656\\文档\\Arduino\\libraries\\DHT11\\src\\DHT11.cpp",
-    "Include": "",
-    "Includepath": null
+    "added_include_path": "D:\\77656(2)\\文档\\Arduino\\libraries\\DHT11\\src"
+  },
+  {
+    "compile": {
+      "source_path": "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Build\\sketch\\Physical_Experiment.ino.cpp",
+      "object_path": "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Build\\sketch\\Physical_Experiment.ino.cpp.o",
+      "depfile_path": "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Build\\sketch\\Physical_Experiment.ino.cpp.d"
+    },
+    "compile_task": {
+      "args": [
+        "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+        "-ID:\\77656(2)\\文档\\Arduino\\libraries\\DHT11\\src",
+        "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Build\\sketch\\Physical_Experiment.ino.cpp",
+        "-o",
+        "nul"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\77656(2)\\文档\\Arduino\\libraries\\DHT11\\src\\DHT11.cpp",
+      "object_path": "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Build\\libraries\\DHT11\\DHT11.cpp.o",
+      "depfile_path": "D:\\DevFiles\\Arduino\\Arduino_projects\\Physical_Experiment\\Build\\libraries\\DHT11\\DHT11.cpp.d"
+    },
+    "compile_task": {
+      "args": [
+        "D:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
+        "-ID:\\DevFiles\\Arduino\\arduino-cli\\config\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
+        "-ID:\\77656(2)\\文档\\Arduino\\libraries\\DHT11\\src",
+        "D:\\77656(2)\\文档\\Arduino\\libraries\\DHT11\\src\\DHT11.cpp",
+        "-o",
+        "nul"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
   }
 ]

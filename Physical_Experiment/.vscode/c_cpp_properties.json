@@ -4,8 +4,10 @@
             "name": "arduino",
             "includePath": [
                 "${workspaceFolder}/**",
-                "D:/77656/文档/Arduino/libraries/**",
-                "D:/DevFiles/Arduino/arduino-cli/config/packages/arduino/hardware/avr/1.8.6/**"
+                "D:/77656(2)/文档/Arduino/libraries/**",
+                "D:/DevFiles/Arduino/arduino-cli/config/packages/arduino/hardware/avr/1.8.6/cores/arduino/**",
+                "D:/DevFiles/Arduino/arduino-cli/config/packages/arduino/hardware/avr/1.8.6/variants/**",
+                "D:/DevFiles/Arduino/arduino-cli/config/packages/arduino/hardware/avr/1.8.6/libraries/**"
             ],
             "forcedInclude": [
                 "D:/DevFiles/Arduino/arduino-cli/config/packages/arduino/hardware/avr/1.8.6/cores/arduino/Arduino.h",
