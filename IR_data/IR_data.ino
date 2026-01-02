@@ -4,28 +4,27 @@
  * 接线：    红外接收模块    Arduino
  *           GND             GND
  *           VCC             5V
- *            S(data)         D13
+ *            S(data)         D2  (更换为D2引脚避免冲突)
  */
 
 #include <IRremote.h> // 包含红外库
 
-#define IR_RECEIVER_PIN 13 // 红外接收器连接的数字引脚
+#define IR_RECEIVER_PIN 13 // 更换为D2引脚避免与板载LED冲突
 
-IRrecv IR_receiver; // 创建红外接收器对象
+
 
 void setup() {
-  Serial.begin(9600); // 初始化串口通信
-  IR_receiver.begin(IR_RECEIVER_PIN); // 初始化红外接收器
+  Serial.begin(115200); // 初始化串口通信
+  IrReceiver.begin(IR_RECEIVER_PIN); /**************** 用自带的irReceiver对象!!!!!!! */
   Serial.println("IRreceiver begin"); // 打印提示信息
-  IR_receiver.enableIRIn(); // 启用红外接收器
 }
  
 void loop() {
-  if(IR_receiver.decode()){
-    Serial.print(IR_receiver.decodedIRData.protocol); // 打印红外信号的协议
+  if(IrReceiver.decode()) { // 检测到红外信号
+    Serial.println("IRreceiver decode"); // 打印提示信息
+    Serial.print(IrReceiver.decodedIRData.protocol); // 打印红外信号的协议
     Serial.print("|0x");
-    Serial.println(IR_receiver.decodedIRData.command, HEX); // 打印红外信号的命令
-    IR_receiver.resume(); // 继续接收下一个红外信号
+    Serial.println(IrReceiver.decodedIRData.command, HEX); // 打印红外信号的命令
+    IrReceiver.resume(); // 继续接收下一个红外信号
   }
 }
- 

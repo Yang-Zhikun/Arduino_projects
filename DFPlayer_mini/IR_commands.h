@@ -1,4 +1,4 @@
-#Pragma once
+#pragma once
 
 
 #define IR_PROTOCOL 8 // 红外信号的协议(NEC)
@@ -13,8 +13,8 @@
 #define VOL_UP 0x15        // VOL+
 #define EQ 0x09            // EQ
 #define NUM_0 0x16         // 数字0
-#define NUM_100 0x19       // 数字100+
-#define NUM_200 0x0D       // 数字200+
+#define _100 0x19       // 100+
+#define _200 0x0D       // 200+
 #define NUM_1 0x0C         // 数字1
 #define NUM_2 0x18         // 数字2
 #define NUM_3 0x5E         // 数字3
